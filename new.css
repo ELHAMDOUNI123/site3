@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	padding: 380px;
+	background-image: url(https://images.unsplash.com/photo-1464397084257-576d657be142?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=48624f84195c176012455e1e826638ba&auto=format&fit=crop&w=1350&q=80);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	filter: grayscale(35%);	
+	margin-bottom: 100px;
+	padding-bottom: 520px;
+}
+
+h1, h2 {
+	color: white;
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.gal {
+	text-align: center;
+	margin-top: 0px;
+}
+
+h3 {
+	margin-bottom: 20px;
+	line-height: 0px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+}
+
+img {
+	height: 400px;
+	width: 300px;
+	margin: 50px;
+	position: relative;
+    transition: all 1s;
+    filter: grayscale(85%);
+}
+
+img:hover {
+	transform: translateY(-30px) ;
+	filter: grayscale(0%);
+	box-shadow: 3px 20px rgb(45, 47, 51, 0.2);
+}
+
+
+.sep {
+	border-top: 3px solid #3881f7;
+	border-radius: 25px;
+	text-align: center;
+	margin-right: 620px;
+	margin-left: 620px;
+	margin-bottom: 40px;
+	margin-top: 40px ;
+}
+
+
